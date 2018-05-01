@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<roslaunch>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find raspimouse_hector_slam)/launch/hector_rviz.rviz" required="true" />
+
+</roslaunch>
