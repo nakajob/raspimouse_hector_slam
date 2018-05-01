@@ -22,4 +22,7 @@
 
   <node pkg="joy" type="joy_node" name="joystick"/> 
 
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find raspimouse_hector_slam)/launch/hector_rviz.rviz" required="true" />
+
+  
 </launch>
